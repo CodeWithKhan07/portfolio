@@ -1,16 +1,44 @@
-# React + Vite
+# 🚀 Minimalist Engineer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance, dark-themed portfolio website designed for **Mobile Application Engineers**. Built with **React**, **Tailwind CSS**, and **Framer Motion**, and deployed on **Vercel**.
 
-Currently, two official plugins are available:
+**Live URL:** [shahzaib-khan-dev.vercel.app](https://shahzaib-khan-dev.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🎨 Design Philosophy
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This portfolio is engineered to reflect technical stability and sophisticated UI.
 
-## Expanding the ESLint configuration
+- **Performance:** Ultra-fast loading using **Vite**.
+- **Responsiveness:** Fully fluid layout for Mobile, Tablet, and Desktop.
+- **UX/UI:** Smooth scroll-driven animations and clean, high-contrast typography.
+- **Interactive:** Gmail-direct integration and dynamic project showcasing.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+| Tech              | Purpose                       |
+| :---------------- | :---------------------------- |
+| **React 18**      | UI Library                    |
+| **Vite**          | Build Tool & Fast Refresh     |
+| **Tailwind CSS**  | Utility-first Styling         |
+| **Framer Motion** | Physics-based Animations      |
+| **Lucide React**  | Clean, Vector Icons           |
+| **Vercel**        | Continuous Deployment (CI/CD) |
+
+---
+
+## 📂 Project Structure
+
+```text
+├── public/              # Static assets (Favicon/Images)
+├── src/
+│   ├── App.jsx          # Main Portfolio logic & UI components
+│   ├── main.jsx         # Entry point
+│   └── index.css        # Tailwind directives & Global styles
+├── index.html           # Meta tags & SEO configuration
+├── tailwind.config.js   # Custom theme & Red-600 branding
+└── vite.config.js       # Build configurations
+```
