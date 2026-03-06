@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+/* We remove the existing 'body { display: flex }' because it 
+  conflicts with a standard scrolling webpage layout.
+*/
+
+:root {
+  font-family: "Inter", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* Standard Dark Mode Background */
+  color-scheme: dark;
+  background-color: #020202; /* Pitch black for that stalker vibe */
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  /* Enables the smooth transition when clicking 'Scroll Down' or Nav links */
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+/* Custom Scrollbar for Chrome/Safari/Edge to match the Dark Theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #020202;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #22d3ee33; /* Cyan with low opacity */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #22d3ee; /* Bright Cyan on hover */
+}
